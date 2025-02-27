@@ -63,6 +63,7 @@
 ---
 
 # Build Custom Views
+
 - [ ] Member Info table ( Individual & Honorary members only )
 - [ ] Joined Household Record table ( Household members only )
 - [ ] Committee Selections, Individual and Honorary members only
@@ -71,16 +72,30 @@
 - [ ] Member Attributes, Household members only
 
 ## Custom View - Members Attributes, Individual and Honorary members only
+
 - [ ] Decide which fields to keep and which to remove from the `4) Member Attributes` table.
 - [ ] Update column: Change `Submission ID` to `Member ID`. Remap `Member ID` to the `MemberID` key in the Increment Value step.
 - [ ] Remove columns: (1) Year Joined, (2) Spouse / Partner Name ( those will move to the `1) Garden Member Info` table.  
 
 ## Custom View - Member Attributes, Household members only
+
 - [ ] The membership application form does not currently distinguish between input for the first and second household member. Fix this on the form so the input can be automated.
 
 ---
 
-# Documentation for new Membership System
+# Migrate Existing Membership Records to Zapier Tables
+
+- [ ] Copy the file currently stored on the Club's Google Drive.
+- [ ] Divide and restructure the file as needed so that each remaining file and column maps one-for-one with it's target table in Zapier.
+- [ ] Generate a test `.csv` file to upload to a Zapier table.
+- [ ] Follow Zapier's documentation for importing a `.csv` file.
+- [ ] Repeat as needed until all data is imported.
+- [ ] IMPORTANT! Each imported record into a Zapier table will require a value Member ID. Records for the same member across  different tables must all have the same Member ID.
+
+---
+
+# Topics to document for new Membership System
+
 - [ ] Access to the membership system on Zapier
 - [ ] Zapier team admin sends a team member invitation that must be accepted.
 - [ ] Logging in to Zapier
@@ -93,7 +108,8 @@
 - [ ] Saving a custom view.
 - [ ] The custom views set up for the membership recordkeeping system
 
-# Creating an organizational accont on GitHub for the Garden Club of Minneapolis
+# Create an organizational accont on GitHub for the Garden Club of Minneapolis
+
 - [ ] Identify the steps involved.
 - [ ] Creating an account login to administer the account
 - [ ] How contributers can access the GCM wiki on GitHub
