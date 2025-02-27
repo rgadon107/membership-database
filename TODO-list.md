@@ -54,8 +54,13 @@
 ## Task: Remove section asking for renewing members to update their information
 - [ ] On the Join / Renew form, remove the section titled `Did you member directory information change in the last year?`
 
-## Task: The 2nd Household Member will require their own set of committee selections on the triggering form
-- [ ] Add selections and conditions to the membership application form to show committee options for a 2nd household member when ML == `Household`.
+## Task: Household Memberships - Member Interests
+- [ ] Create 2 sections, one each for first and second household member that address `Member Interests, Mentoring, & Gardening Expertise`
+
+## Task: Household Memberships - Committees
+- [ ] Create 2 sections, one each for first and second household member that address `Club Activities and Service Committees`.
+
+---
 
 # Build Custom Views
 - [ ] Member Info table ( Individual & Honorary members only )
@@ -67,7 +72,29 @@
 
 ## Custom View - Members Attributes, Individual and Honorary members only
 - [ ] Decide which fields to keep and which to remove from the `4) Member Attributes` table.
+- [ ] Update column: Change `Submission ID` to `Member ID`. Remap `Member ID` to the `MemberID` key in the Increment Value step.
+- [ ] Remove columns: (1) Year Joined, (2) Spouse / Partner Name ( those will move to the `1) Garden Member Info` table.  
 
 ## Custom View - Member Attributes, Household members only
-- [ ] The membership application form does not currently distinguish between input for the first and second household member. Fix this on the form so the input can be automated. 
+- [ ] The membership application form does not currently distinguish between input for the first and second household member. Fix this on the form so the input can be automated.
+
+---
+
+# Documentation for new Membership System
+- [ ] Access to the membership system on Zapier
+- [ ] Zapier team admin sends a team member invitation that must be accepted.
+- [ ] Logging in to Zapier
+- [ ] The Zapier landing page; accessing Zaps, Tables, and Interfaces
+- [ ] Orient users to a Zap
+- [ ] Orient users to Zapier Tables
+- [ ] Orient users to Zapier Interfaces
+- [ ] Table versus View
+- [ ] Filtering a view.
+- [ ] Saving a custom view.
+- [ ] The custom views set up for the membership recordkeeping system
+
+# Creating an organizational accont on GitHub for the Garden Club of Minneapolis
+- [ ] Identify the steps involved.
+- [ ] Creating an account login to administer the account
+- [ ] How contributers can access the GCM wiki on GitHub
 
