@@ -26,7 +26,7 @@
 
 ## Task: Update the `1) Garden Member Info` table
 
-- [ ] Columns ( L to R ): Member ID ( Num ), Last Name ( T ), First Name ( T ), Membership Level ( DD ), Spouse / Partner ( T ), Email Address ( email ), Address, City ( T ), State ( DD ), Zip Code ( Num ), County ( T ), Phone Number ( phone_number ). Options to add: Year Joined, Latest Table Submission ( MM-YY-DDDD ).
+- [ ] Columns ( L to R ): Member ID ( Num ), Last Name ( T ), First Name ( T ), Membership Status ( DD ), Membership Level ( DD ), Spouse / Partner ( T ), Email Address ( email ), Address, City ( T ), State ( DD ), Zip Code ( Num ), County ( T ), Phone Number ( phone_number ). Options to add: Year Joined, Latest Table Submission ( MM-YY-DDDD ).
 
 ## Task: Add a 'Year Joined' field to the 'Garden Member Info' table
 
@@ -39,7 +39,7 @@
 
 ## Task: Update the `3) Household ( HH ) Memberships` table
 
-- [ ] Change the column `Fporm Submission ID` to `Member ID`.
+- [ ] Change the column `Form Submission ID` to `Member ID`.
 - [ ] Map the `Member ID` column to the the Increment Value key `MemberID`.
 - [ ] Delete columns: `Last Name - Member` & `First Name - Member`. [ Those values will be captured when this table is joined to `Garden Member Info`.
 - [ ] Add column: `Year Joined`.
