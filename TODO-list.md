@@ -6,13 +6,13 @@
 
 ## Task: Initialize Storage by Zapier in the Club Membership Records Zap
 
-- [ ] Share my Storage by Zapier account with Peter Moe's team to they can use the feature. 
-- [ ] Zap: Club Membership Records: Add a step immediately after the trigger to add Storage by Zapier >> Increment Value.
-- [ ] Configuration of Increment Value Zap step: Assign the value of 'Member ID' to the storage key, and set the increment value to 1.
+- [X] ~~Share my Storage by Zapier account with Peter Moe's team to they can use the feature.~~ 
+- [X] ~~Zap: Club Membership Records: Add a step immediately after the trigger to add Storage by Zapier >> Increment Value.~~
+- [X] ~~Configuration of Increment Value Zap step: Assign the value of 'Member ID' to the storage key, and set the increment value to 1.~~
 
 ## Task: Change the Ninja Forms date / time submission in trigger to only a data formatted as MM-DD-YYYY 
 
-- [ ] Add Zapier Formatter step at the start of the Zap to change the data / time form subission to a date only format 
+- [X] ~~Add Zapier Formatter step at the start of the Zap to change the data / time form subission to a date only format.~~ 
       
 ## Task: Add a Path step immediately following the Increment Value step
 
@@ -26,7 +26,7 @@
 
 ## Task: Update the `1) Garden Member Info` table
 
-- [ ] Columns ( L to R ): Member ID ( Num ), Last Name ( T ), First Name ( T ), Membership Status ( DD ), Membership Level ( DD ), Spouse / Partner ( T ), Email Address ( email ), Address, City ( T ), State ( DD ), Zip Code ( Num ), County ( T ), Phone Number ( phone_number ). Options to add: Year Joined, Latest Table Submission ( MM-YY-DDDD ).
+- [X] ~~Columns ( L to R ): Member ID ( Num ), Last Name ( T ), First Name ( T ), Membership Status ( DD ), Membership Level ( DD ), Spouse / Partner ( T ), Email Address ( email ), Address, City ( T ), State ( DD ), Zip Code ( Num ), County ( T ), Phone Number ( phone_number ), Year Joined ( Num ), Form Submission Date ( MMMMa-YY-DDDD ).~~
 
 ## Task: Add a 'Year Joined' field to the 'Garden Member Info' table
 
@@ -35,18 +35,21 @@
 
 ## Task: Delete the `2) Member Contact Info` table. 
 
-- [ ] All that data is going to get captured in the `1) Garden Member Info` table. 
+- [X] ~~All that data is going to get captured in the `1) Garden Member Info` table.~~ 
 
 ## Task: Update the `3) Household ( HH ) Memberships` table
 
-- [ ] Change the column `Form Submission ID` to `Member ID`.
+- [X] ~~Rename table to `2) Household ( HH ) Members`.~~ 
+- [X] ~~Change the column `Form Submission ID` to `Member ID`.~~
 - [ ] Map the `Member ID` column to the the Increment Value key `MemberID`.
-- [ ] Delete columns: `Last Name - Member` & `First Name - Member`. [ Those values will be captured when this table is joined to `Garden Member Info`.
-- [ ] Add column: `Year Joined`.
+- [X] ~~Delete columns: `Last Name - Member` & `First Name - Member`. [ Those values will be captured when this table is joined to `Garden Member Info`.~~
+- [X] ~~Add columns: `Year Joined`, and `Form Submission Date`.~~
 
 ## Task: Join Committees to Honorary and Individual Member data
 - [ ] Create a separate table to join information from `1) Garden Member Info` and `Committees` tables. Link the tables by `Member ID`.
 
+## Task: Create a `X) Member Attribute - 2nd HH Member` table
+- [ ] Table will capture Member Interests, Expertise, & Gardening Interests info for household members. 
 ---
 
 # Update the Membership application form
