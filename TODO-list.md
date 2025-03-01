@@ -67,12 +67,13 @@
 
 # Build Custom Views
 
-- [ ] Member Info table ( Individual & Honorary members only )
-- [ ] Joined Household Record table ( Household members only )
-- [ ] Committee Selections, Individual and Honorary members only
-- [ ] Committee Selections, Household members only
-- [ ] Member Attributes, Individual and Honorary members only
-- [ ] Member Attributes, Household members only
+- [ ] Joined Member Contact Info table ( Individual, Honorary, & 1st HH members only ).
+- [ ] Joined Household Member Record table ( combines `Joined Member Contact Info` and `2nd Household Member` tables )
+- [ ] Joined Committee Selections of All Members ( Except 2nd HH ) - applies to Individual, Honorary, & 1st HH members only.
+- [ ] Committee Selections of 2nd Household Members
+
+- [ ] Joined Member Attributes of All Members ( Except 2nd HH ) table - applies to Individual, Honorary, & 1st HH members only ).
+- [ ] Member Attributes of 2nd Household Members.
 
 ## Custom View - Members Attributes, Individual and Honorary members only
 
