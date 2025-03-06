@@ -46,9 +46,9 @@
 - [X] ~~Add columns: `Year Joined`, and `Form Submission Date`.~~
 
 ## Task: Join Committees to Honorary and Individual Member data
-- [ ] Create a separate table to join information from `1) Garden Member Info` and `Committees` tables. Link the tables by `Member ID`.
+- [ ] Create a separate table to join information from `Member Contact Info` and `Committees` tables. Link the tables by `Member ID`.
 
-## Task: Create a `X) Member Attribute - 2nd HH Member` table
+## Task: Create a `Member Attribute - 2nd HH Member` table
 - [ ] Table will capture Member Interests, Expertise, & Gardening Interests info for household members. 
 ---
 
@@ -67,19 +67,21 @@
 
 # Build Custom Views
 
-- [ ] Joined Member Contact Info table ( Individual, Honorary, & 1st HH members only ).
-- [ ] Joined Household Member Record table ( combines `Joined Member Contact Info` and `2nd Household Member` tables )
-- [ ] Joined Committee Selections of All Members ( Except 2nd HH ) - applies to Individual, Honorary, & 1st HH members only.
-- [ ] Committee Selections of 2nd Household Members
+Note (1): These are all mapped out schematically using DrawIO. 
+Note (2): Removed the `Club Honors` table due to difficulty in tracking awards for 1st and 2nd household members. 
 
-- [ ] Joined Member Attributes of All Members ( Except 2nd HH ) table - applies to Individual, Honorary, & 1st HH members only ).
-- [ ] Member Attributes of 2nd Household Members.
+- ~~[X] 1) Table: Joined Member Contact Info ( Individual, Honorary, & 1st HH members only ).~~
+- ~~[X] 2) Table: Joined Household Member Record table - combines `Joined Member Contact Info` and `2nd Household Member` tables. Applies to 1st & 2nd household members.~~
+- ~~[X] 3) Table: Joined Committee Selections of All Members ( Except 2nd HH Members) - applies to Individual, Honorary, & 1st HH members only.~~
+- ~~[X] 4) Joined Committee Selections of 2nd Household Members - applies to 2nd household members only.~~ 
+- ~~[X] 5) Joined Member Attributes ( except 2nd HH Members ) - applies to Individual, Honorary, & 1st HH members only.~~
+- ~~[X] 6) Joined Member Attributes of 2nd Household Members - applies to 2nd household members only.~~ 
 
 ## Custom View - Members Attributes, Individual and Honorary members only
 
 - [ ] Decide which fields to keep and which to remove from the `4) Member Attributes` table.
 - [ ] Update column: Change `Submission ID` to `Member ID`. Remap `Member ID` to the `MemberID` key in the Increment Value step.
-- [ ] Remove columns: (1) Year Joined, (2) Spouse / Partner Name ( those will move to the `1) Garden Member Info` table.  
+- [ ] Remove columns: (1) Year Joined, (2) Spouse / Partner Name ( those will move to the `Member Contact Info` table.  
 
 ## Custom View - Member Attributes, Household members only
 
